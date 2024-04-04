@@ -1,3 +1,5 @@
+-- This code has been taken from https://pastebin.com/2Kr9CXAw and customized to be better
+
 local player = game.Players.LocalPlayer -- Gets the LocalPlayer
 local mouse = player:GetMouse() -- Gets the player's mouse
 local title = Instance.new("TextLabel")
