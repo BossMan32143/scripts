@@ -2,15 +2,15 @@
 
 --// ! Example ! \\--
 
-getgenv().Owner = 'YourOwnerUserNamehere' --This is JUST example dont put your username here.
+getgenv().Accounts = {OWNER = 'YourOwnerUsername', STAND = "YourStandUsername"}
 
 ]]
 getgenv()._=
-"This script made by xk5ng | 808188341547565097 | If you pay for this script you get scammed LMAO | This script is completely free ok | Please kill yourself if you sell this script | On god skibidi rizzler meow gyat ohio sigma | https://discord.gg/msgabv2t9Q | https://discord.gg/ticxyy"
---// ! Username Of Owner ! \\--
-getgenv().OWNER = 'BozoHated'
+"This script made by xk5ng | 808188341547565097 | If you pay for this script you get scammed LMAO | This script is completely free ok | Please kill yourself if you sell this script | On god skibidi rizzler meow gyat ohio sigma | https://discord.gg/msgabv2t9Q | https://discord.gg/stando"
+--// ! Accounts ! \\--
+getgenv().Accounts = {OWNER = 'BozoHated', STAND = "LaStWoRd10x"}
 --\\-- Stand-Settings --//--
-getgenv().XK5NG = {
+getgenv().StandConfig = {
     --\\-- ! Main ! --//--
     ['Position'] = 'Back', --Position Of Stand [Back | Left | Right]
     ['CrewID'] = 32570691, --Must Be In Group For It To Work
@@ -50,4 +50,4 @@ getgenv().XK5NG = {
     ['CustomSong'] = 6703926669, --Enter A Song ID And Say 'Song!'
     ['SummonMusic'] = true, --[true | false]
     ['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
-}loadstring(game:HttpGet("https://xk5ng.github.io/V4.4"))()
+}loadstring(game:HttpGet("https://xk5ng.github.io/V4.5"))()
