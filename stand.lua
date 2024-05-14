@@ -1,15 +1,17 @@
---[[To get started in "Owner" put the username you want to control them.
-
---// ! Example ! \\--
-
-getgenv().Accounts = {OWNER = 'YourOwnerUsername', STAND = "YourStandUsername"}
-
-]]
 getgenv()._=
-"This script made by xk5ng | 808188341547565097 | If you pay for this script you get scammed LMAO | This script is completely free ok | Please kill yourself if you sell this script | On god skibidi rizzler meow gyat ohio sigma | https://discord.gg/msgabv2t9Q | https://discord.gg/stando"
---// ! Accounts ! \\--
+"This script made by xk5ng | If you pay for this script you get scammed, this script is completely free ok https://discord.gg/msgabv2t9Q | https://discord.gg/stando"
+--[[To get started in "OWNER" put the username you want to control and in "STAND" put the StandUsername aka AltUsername.
+
+// Example \\
+
+getgenv().Accounts = {OWNER = 'xk5ng', STAND = "4k7nz"} This is just the example dont put the username here ]]
+
+--\\-- Accounts --//--
+
 getgenv().Accounts = {OWNER = 'BozoHated', STAND = "LaStWoRd10x"}
---\\-- Stand-Settings --//--
+
+--\\-- Stand-Configuration --//--
+
 getgenv().StandConfig = {
     --\\-- ! Main ! --//--
     ['Position'] = 'Back', --Position Of Stand [Back | Left | Right]
@@ -30,16 +32,18 @@ getgenv().StandConfig = {
     --\\-- ! Misc ! --//--
     ['AutoSaveLocation'] = '1', --[1 | 2]. '1' is bank food shop rooftop, '2' is "DA FURNITURE" Rooftop
     ['AttackDistance'] = 75, --Attack distance for "Attack!, Stab!, Gkill!" max distance
+    ['MutePremium'] = true, --Only for premium (this make ur stand cant be controlled by other premium)
+    ['TPMode'] = "Cart", --[Knock | Cart]
     ['Smoothing'] = false, --[true | false] If [false] Less Delays And if [true] The Stand Movement Will Smooth But Kinda Delayed
-    ['CustomPrefix'] = '.', --[ ! | / | . | ? | > | < | | ; | : ] Custom target prefix
+    ['CustomPrefix'] = '.', --[ ! | / | . | ? | > | < | $ | ; | : ] Custom target prefix
     ['CustomSummon'] = 'Summon!', --Custom [Summon!] Text
     ['SummonPoses'] = 'Pose1', --[false | Pose1 | Pose2 | Pose3]
-    ['LowGraphics'] = false, --[true | false] Turns graphics down so your stand doesnt lag too much
+    ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
     ['AntiStomp'] = true, --[true | false] The Stand Will Cannot Be Stomped Or Grabbed
-    ['CustomName'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
+    ['CustomNAME'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
     ['Hidescreen'] = false, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
     ['ChatCmds'] = true, --[true | false] Chatted When You Use Some Command
-    ['MaskMode'] = 'Paintball', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot] The Stand Will Buy The Mask You Selected
+    ['MaskMode'] = 'Breathing', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
     ['AutoMask'] = true, --[true | false] Auto Buy Mask When The St    and Respawn
     ['FPSCAP'] = false, --[false | 'NUMBER'] This is so your main account gets the most fps (MAXED IS 60, SUGGEST 30 FPS ON STANDS)
     ['Msg'] = 'Yare Yare Daze.', --When You Say [/e msg] It Makes All The Alts Say That Message
@@ -50,4 +54,4 @@ getgenv().StandConfig = {
     ['CustomSong'] = 6703926669, --Enter A Song ID And Say 'Song!'
     ['SummonMusic'] = true, --[true | false]
     ['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
-}loadstring(game:HttpGet("https://xk5ng.github.io/V4.5"))()
+}loadstring(game:HttpGet("https://xk5ng.github.io/V4.6"))()
